@@ -1,0 +1,124 @@
+/*General Style*/
+
+.container {
+	width: 830px;
+}
+
+body {
+	font: 16.5px Droid Sans;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: left;
+	line-height: 1.3em;
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+
+a {
+	color: rgb(150,0,60); 
+}
+
+a:hover {
+	color: rgb(190,0,60); 
+	background: rgb(240,250,255);
+}
+
+h2 {
+	font: 20px Glegoo;
+	font-weight: bold;
+	color: rgb(40,80,200);
+	margin-bottom: 1em;
+}
+
+p + p {
+	margin-top: 1.3em;
+}
+
+.vip {
+	font-weight: bold;
+}
+
+.proj-desc {
+	text-align: justify;
+	/*margin-left: 40px;*/
+	margin-top:0.4em;
+}
+
+/*Navigation*/
+
+.nav .container{
+	width: 980px;
+	border-bottom: 6px solid rgb(240,250,255);
+	margin-bottom: 10px;
+	background-color: rgba(255,255,255,0.9);
+}
+
+.nav a {
+    font: 15px Glegoo;
+    font-weight: bold;
+}
+
+.nav li {
+	display: inline;
+	padding: 6px;
+	margin-top: 7px;
+}
+
+.nav-pills li a {
+	font-weight: bold;
+	background-color: rgb(252,242,240);
+	color: rgb(150,0,60);
+}
+
+.nav-pills li a:hover {
+	font-weight: bold;
+	background-color: rgb(240,250,255);
+	color: rgb(190,0,60);
+}
+
+.nav-pills li.active a, .nav-pills li.active a:hover {
+	font-weight: bold;
+	background-color: rgb(150,0,60);
+	color: rgb(255,255,255);
+}
+
+.envelope img {
+	height: 45px;
+	padding: 5px;
+	margin-top: 2px;
+}
+
+.envelope img:hover {
+	background-color: rgb(255,255,255);
+}
+
+span.name {
+	color: rgb(40,80,200);
+	font: 40px Glegoo;
+	font-weight: bold;
+}
+
+.footer .container{
+	width: 980px;
+	border-top: 6px solid rgb(240,250,255);
+	padding-top: 10px;
+	margin-top: 10px;
+	background-color: rgba(255,255,255,0.9);
+	font: 13px Glegoo; 
+	font-weight: bold;
+	color: rgb(40,80,200);
+}
+
+.footer p + p {
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+.footer a {
+	color: rgb(40,80,200); 
+}
+
+.footer a:hover {
+	color: rgb(40,,80,250); 
+	background: rgb(240,250,255);
+}
